@@ -237,7 +237,7 @@ later episode of this lesson.
 
 Resource requests are typically binding. If you exceed them, your job will be
 killed. Let's use wall time as an example. We will request 1 minute of
-wall time, and attempt to run a job for two minutes.
+wall time, and attempt to run a job for four minutes.
 
 ```
 {{ site.remote.prompt }} cat example-job.sh
